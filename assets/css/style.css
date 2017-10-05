@@ -463,7 +463,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(http://dillengerelectricbikes.com.au/main/media/product/3e5/opia-2-0-series-pre-order-special-80a.jpg) no-repeat center top fixed;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9c/Electric_Bicycle.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -491,7 +491,10 @@ textarea::-ms-input-placeholder
     margin-top:20px;
     color:#ecf0f2;
 }
-
+.brand {
+	font-weight : bold;
+	text-decoration: italic;
+}
 /*For About Us Section */
 
 .about-content{
@@ -816,8 +819,10 @@ Main components
 #cd-logo {
     position: absolute;
     left: 10px;
+	text-align:none;
+	color:#FFFFFF;
     top: 8px;
-    width: 100px;
+    width: 132px;
     height: 32px;
 }
 #cd-logo img {
