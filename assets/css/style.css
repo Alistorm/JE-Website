@@ -586,7 +586,7 @@ textarea::-ms-input-placeholder
 /*For Experience Section*/
 
 .experience{
-    background: url(../images/city.jpg) no-repeat center top fixed;
+    background: url(../images/VttElectrique.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -673,11 +673,11 @@ textarea::-ms-input-placeholder
 /*For Contact Section*/
 
 .contact{
-    background: url(../images/contact2.jpg) no-repeat center top fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+    background: url(../images/velo-electrique-nina.jpg) no-repeat center top fixed;
+    background-size: 80% 100%;
+    -moz-background-size: 80% 100%;
+    -webkit-background-size:80% 100%;
+    -o-background-size: 80% 100%;
     width: 100%;
     overflow: hidden;
 }
@@ -1069,14 +1069,4 @@ Main components
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
-}
-.iRideHeader{
-	z-index:100;
-	width:100%;
-	position: fixed;
-	background-color :  #333333;
-}
-.iRideNav {
-	padding-bottom :  0;
-	margin-bottom :  0;
 }

@@ -98,17 +98,6 @@ jQuery(document).ready(function ($) {
 //        time: 2000
 //    });
 
-
-$("#product_iPia").click(function(){
-	$(this).animate({
-    opacity: 0.25,
-    left: "+=5000",
-    height: "toggle"
-  }, 5000, function() {
-    // Animation complete.
-  });
-})
-
     /*---------------------------------------------*
      * WOW
      ---------------------------------------------*/
