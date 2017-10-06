@@ -463,13 +463,18 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9c/Electric_Bicycle.jpg) no-repeat center top fixed;
+	
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     width: 100%;
     overflow: hidden;
+}
+#background_image{
+	  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9c/Electric_Bicycle.jpg) center top fixed;
+	  width:100%;
+	  background-size:100%;
 }
 .home-wrapper{
     margin-top:240px;
