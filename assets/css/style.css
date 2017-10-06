@@ -674,10 +674,10 @@ textarea::-ms-input-placeholder
 
 .contact{
     background: url(../images/velo-electrique-nina.jpg) no-repeat center top fixed;
-    background-size: 80% 100%;
-    -moz-background-size: 80% 100%;
-    -webkit-background-size:80% 100%;
-    -o-background-size: 80% 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    -o-background-size: cover;
     width: 100%;
     overflow: hidden;
 }
